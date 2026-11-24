@@ -1,4 +1,4 @@
-def search_student(name, student):
+def search_student(name, students):
     for student in students:
         if student == name:
             return student
